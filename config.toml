@@ -1,0 +1,37 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Pepe Dream's"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "tango"
+    tabWidth = 2
+
+[author]
+    name = "William"
+    homepage = "https://william9923.github.io"
+
+[permalinks]
+    post = "/blog/:title/"
+
+[params]
+    headTitle = "Reflection Logs"
+    description = "Logs all interesting things in my boring life."
+    # favicon = "/logo.png"
+    mainSections = ["posts"]
+    staticPrefix = "https://cdn.jsdelivr.net/gh/joway/blog"
+    postHeaderContent = ""
+    lazyImage = true
+    search = true
+
+[[params.socials]]
+name = "Github"
+link = "https://github.com/william9923"
+[[params.socials]]
+name = "About"
+link = "https://william9923.github.io"
