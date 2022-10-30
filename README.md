@@ -8,9 +8,11 @@
 ## Screenshots
 
 ## ✨ WIP Features
+- [ ] Export favicon from personal website
 - [ ] Link animation
 - [ ] Improve stylesheet and responsive design stylesheet (css)
 - [ ] Pipeline for deploying in netlify (https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
+- [ ] Setting up analytics
 
 ## 🚀 Interested? Try it yourself!
 
