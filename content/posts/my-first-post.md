@@ -1,15 +1,13 @@
 ---
-title: "My First Post"
+title: "It's time to start"
 date: 2022-10-29T14:56:09+07:00
 draft: true
 ---
 
-I've been blogging on codebetter.com for over four years, and its truly been a great learning experience. The last few months have been full of change - things I hope to share soon - and with those changes has come a desire to express myself about both programming and non programming things. So I thought I needed a place of my own where I could write what I wanted to, about what I wanted.
+Over the past year, I had been blogging on medium.com for my internship and its truly been a great learning experience. Sadly over the course of 2022, i need to focus on finishing my undergraduate studies and now becoming a full time software engineer at a startup in Indonesia (where I live). Alot of things are changing real fast and it was scary to say, at least from my perspective. With how fast things changes and how much I had learnt this past few month, I would like to express myself, from technical things (programming) to my daily life routine. 
 
-From a community perspective, I'm also in a very different place than I was four years ago - or maybe the community is different (or maybe my perspective of the community is different). As .NET has matured the opportunity to grow and improve has diminished - we spend more of our time preaching to the choir than ever. Those who frequent the typical alt.net places don't really need to be told to try NoSQL - whereas friends-of-microsoft are still hand-rolling their stored procedures. There's plenty of worthwhile work and growth happening - it just seems like its taken a different shape.
+From the reader / community perspective, I will give alot of different content from when I was a year ago. As previously I like to share about data science stuff (in medium) based from my experience in the job as a data science intern. Nowadays, it will be more about software engineering stuff, like the problems that I tackled in the job or just some personal ranting about software engineer in general. 
 
-This blog is a custom engine written in Rails w/mysql, hosted at Linode, served up by nginx and passenger. Daily backups are sent to bqbackup. I deploy the changes using capistrano and host the git repository at unfuddle. It took about a day to put together. I've promised myself that any personal projects from here on in would be done in ruby. I don't want to get into the rail/.net thing right now - but it is a more efficient and enjoyable environment, by a significant margin.
+This blog is built using Hugo, hosted at Netlify. And i took a lot of inspiration from ![openmymind.net](https://www.openmymind.net/) and ![Will Larson](https://lethain.com/), both blog had been inspiring for me to start the blogging journey myself. 
 
-What I will say about rails is this: 2 years ago it changed how I viewed data access, today it has changed how I view testing. Do yourself a favor and spend a day or two with Rails just as a learning exercise. As a web programmer, you'll get more out of it - even if you never use it again - than you could by spending those two days doing anything else.
-
-And that's my mandatory first-post. If you have any problems with the site, do let me know, this (rails) is all still pretty new to me.
+WIP

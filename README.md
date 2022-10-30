@@ -10,6 +10,7 @@
 ## ✨ WIP Features
 - [ ] Link animation
 - [ ] Refactor stylesheet (css)
+- [ ] Pipeline for deploying in netlify (https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)
 
 ## 🚀 Interested? Try it yourself!
 
