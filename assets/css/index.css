@@ -64,15 +64,42 @@ article {
   margin-right: auto;
 }
 
-/* TODO: Use our animation css... */
 a {
   color: #000;
   text-decoration: none;
 }
 
-a:hover {
-  font-weight: 600;
-  text-decoration: underline;
+.special a {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  color: var(--txtPrimaryColor);
+  text-decoration: none;
+}
+.special a:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--primaryColor);
+  transform: rotateY(90deg);
+  transform-origin: 0 0;
+  transform-origin: right top;
+  transition: height var(--baseAnimationSpeed),
+    transform var(--baseAnimationSpeed);
+}
+
+.special a:hover {
+  transform: scale(1);
+  transform: rotate(0);
+}
+
+.special a:hover:after {
+  transform: rotateX(0deg);
+  transform-origin: left top;
 }
 
 .post-ads {
@@ -88,6 +115,14 @@ a:hover {
 .markdown-body a {
   text-decoration: underline;
   text-decoration-color: #000;
+}
+
+/*TODO: Debug why hover effect not working*/
+.markdown-body a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+  transform: scale(2);
+  transform: rotate(15);
 }
 
 .markdown-body blockquote {
