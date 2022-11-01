@@ -22,7 +22,7 @@ title = "Pepe Dream's"
 [params]
   headTitle = "Reflection Logs"
   description = "Logs all interesting things in my boring life."
-  # favicon = "/logo.png"
+  favicon = "favicon.ico"
   mainSections = ["posts"]
   lazyImage = true
   search = true
