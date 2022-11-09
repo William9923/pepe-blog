@@ -2,6 +2,7 @@
 :root {
   --contentFontFamily: 'Bree Serif', monospace, emoji;
   --baseFontSize: 28px;
+  --titleFontSize: 32px;
   --wrapperWidth: 1000px;
   --postlineFontSize: 1.75rem;
   --baseRadius: 3px;
@@ -109,6 +110,13 @@ a {
 .markdown-body {
   font-size: var(--baseFontSize);
   font-family: sans-serif;
+  max-width: 100%;
+}
+
+.markdown-body h2 {
+  font-size: var(--titleFontSize);
+  font-family: sans-serif;
+  font-weight: bold;
   max-width: 100%;
 }
 
