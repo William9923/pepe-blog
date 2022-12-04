@@ -213,6 +213,10 @@ a {
   margin: 10px 0;
 }
 
+li {
+  margin: 10px 0;
+}
+
 .posts-categories {
   font-size: 0.8rem;
   margin: auto;
