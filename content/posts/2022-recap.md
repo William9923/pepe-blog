@@ -1,7 +1,7 @@
 ---
 title: "2022 Recap: Reflecting on Milestones and Embracing the Challenges Ahead"
 date: 2022-12-31T09:25:53+07:00
-draft: true
+draft: false
 ---
 
 Hi, with 2023 coming nearly, I would like to thank you for all of my readers through this blog (tho I'm sure that me, my past self, and my future is the only one reading this blog).
